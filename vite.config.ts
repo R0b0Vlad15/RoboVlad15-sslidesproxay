@@ -2,9 +2,9 @@ import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
 import { ChemicalVitePlugin } from "chemicaljs";
 import { ViteMinifyPlugin } from "vite-plugin-minify";
-@ts-ignore
+//@ts-ignore
 import { generateFile } from "./src/util/generateFileVite";
-@ts-ignore
+//@ts-ignore
 import { generateThemes } from "./src/util/generateThemes";
 import themes from "./src/themes.json";
 
